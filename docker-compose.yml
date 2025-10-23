@@ -10,7 +10,7 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: pass
     ports:
-      - "3307:3307"
+      - "3307:3306"
     volumes:
       - mariadb_data:/var/lib/mysql
 
@@ -20,7 +20,7 @@ services:
     depends_on:
       - mariadb
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mariadb://mariadb:3307/springdb
+      SPRING_DATASOURCE_URL: jdbc:mariadb://mariadb:3306/springdb
       SPRING_DATASOURCE_USERNAME: user
       SPRING_DATASOURCE_PASSWORD: pass
     ports:
