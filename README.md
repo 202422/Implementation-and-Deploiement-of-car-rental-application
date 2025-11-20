@@ -21,7 +21,7 @@
 1️⃣ **Cloner le dépôt :**
 ```bash
 git clone https://github.com/202422/Implementation-and-Deploiement-of-car-rental-application.git
-cd spring
+cd Implementation-and-Deploiement-of-car-rental-application
 
 3️⃣ Accéder aux services :
 
